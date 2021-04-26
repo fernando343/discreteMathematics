@@ -30,7 +30,7 @@ Aquí podemos ver que están unidas por la letra y
 |Sergio es deportista|y|Javier es ingeniero|
 |:-:|:-:|:-:| 
 
-### Conectores lógicos 
+## Conectores lógicos 
 
 |Conector lógico|Símbolo|Nombre|
 |:-:|:-:|:-:|
@@ -41,11 +41,7 @@ Aquí podemos ver que están unidas por la letra y
 |Si y solo si|↔|Equivalencia|
 |No es verdad|~|Negación|
 
-### Tablas de verdad 
-nos habla de el valor de verdad de una proposición compuesta
-
-
-#### Conjunción
+### Conjunción
 |p|y|q|
 |:-:|:-:|:-:|
 |Esta lloviendo|y|Hace frio|
@@ -59,7 +55,7 @@ nos habla de el valor de verdad de una proposición compuesta
 
 Lo que esto nos dice es que la proposición solo es verdadera si las dos proposiciónes son verdaderas 
 
-#### Disyunción débil
+### Disyunción débil
 
 |p|o|q|
 |:-:|:-:|:-:|
@@ -74,7 +70,7 @@ Lo que esto nos dice es que la proposición solo es verdadera si las dos proposi
 
 esto nos quiere decir que va a ser falso solo si las 2 son falsas
 
-#### Disyunción fuerte
+### Disyunción fuerte
 
 |o|p|o|q|
 |:-:|:-:|:-:|:-:|
@@ -89,7 +85,7 @@ esto nos quiere decir que va a ser falso solo si las 2 son falsas
 
 Esta nos quiere decir que una de las dos deben cumplirse pero no las dos y tampoco pueden ser las dos falsas
 
-#### Implicación 
+### Implicación 
 
 |Si|p|entonces|q|
 |:-:|:-:|:-:|:-:|
@@ -104,7 +100,7 @@ Esta nos quiere decir que una de las dos deben cumplirse pero no las dos y tampo
 
 La única forma en que sea falsa es que este lloviendo y no haga frio es decir que la primera sea verdadera y la segunda sea falsa 
 
-#### Equivalencia
+### Equivalencia
 
 |p|entonces|q|
 |:-:|:-:|:-:|
@@ -119,7 +115,7 @@ La única forma en que sea falsa es que este lloviendo y no haga frio es decir q
 
 Solo va a ser verdadero si ambas son verdaderas o ambas son falsas 
 
-#### Negación 
+### Negación 
 
 |~p|
 |:-:
@@ -132,7 +128,52 @@ Solo va a ser verdadero si ambas son verdaderas o ambas son falsas
 
 Lo que hace la negación es negar lo que esta pasando 
 
+## Tablas de verdad 
 
+### Tautología
+La tautología se da cuando todas nuestras respuestas son verdaderas
 
+|p|q|Formula|
+|:-:|:-:|:-:|
+|V|V|**V**|
+|V|F|**V**|
+|F|V|**V**|
+|F|F|**V**|
+
+### Contradicción
+La contradicción se da cuando todas nuestras respuestas son falsos
+|p|q|Formula|
+|:-:|:-:|:-:|
+|V|V|**F**|
+|V|F|**F**|
+|F|V|**F**|
+|F|F|**F**|
+
+### Contingencia
+La contingencia es cuando nuestras respuestas son entre verdaderas y falsas 
+
+|p|q|Formula|
+|:-:|:-:|:-:|
+|V|V|**V**|
+|V|F|**F**|
+|F|V|**V**|
+|F|F|**F**|
+
+#### Construcción tabla de verdad
+**p→(p∧~p)**
+
+|p|~p|p∧~p|p→(p∧~p)|
+|:-:|:-:|:-:|:-:|
+|V|F|F|F|
+|F|V|F|V|
+
+**(p∨q)∨~q**
+
+|p|q|p∧~q|~q|(p∨q)∨~q|
+|:-:|:-:|:-:|:-:|:-:|
+|V|V|V|F|V|
+|V|F|V|V|V|
+|F|V|V|F|V|
+|F|F|F|V|V|
 
 
