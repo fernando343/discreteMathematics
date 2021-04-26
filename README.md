@@ -176,4 +176,37 @@ La contingencia es cuando nuestras respuestas son entre verdaderas y falsas
 |F|V|V|F|V|
 |F|F|F|V|V|
 
+**Ejercicio**
+
+Si se conoce que (q∨~r)∨p es falso. Determinemos
+(~r∨~p)→(p→~p)
+
+Para poder resolver esto primero tenemos que encontrar el valor de (q∨~r)∨p, ya que el ejercicio nos dice que es falso y ya que es una disyunción quiere decir que ambas son falsas
+
+|(q∨~r)|∨|p|=|F|
+|:-:|:-:|:-:|:-:|:-:
+|F|o|F|
+
+con esto encontramos el valor de p que es F
+
+y seguimos de igual manera con lo siguiente hasta encontrar el valor de q y de r
+
+|q|∨|~r|=|F|
+|:-:|:-:|:-:|:-:|:-:
+|F|o|F|
+
+entonces tenemos que 
+
+    p = F
+    q = F
+    r = V
+
+y a continuación remplazamos estos valores en lo que nos pide resolver 
+
+|(~r ∨ ~p)|→|(p → ~p)|
+|:-:|:-:|:-:|
+|~V ∨ ~F|→|(F → ~ F)
+|F ∨ V|→|F → V|
+|V|→|V|
+||V||
 
