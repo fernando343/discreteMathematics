@@ -40,3 +40,99 @@ Aquí podemos ver que están unidas por la letra y
 |Si... entonces ..|→|Implicación|
 |Si y solo si|↔|Equivalencia|
 |No es verdad|~|Negación|
+
+### Tablas de verdad 
+nos habla de el valor de verdad de una proposición compuesta
+
+
+#### Conjunción
+|p|y|q|
+|:-:|:-:|:-:|
+|Esta lloviendo|y|Hace frio|
+
+|p|q|p∧q|
+|:-:|:-:|:-:|
+|V|V|V|
+|V|F|F|
+|F|V|F|
+|F|F|F|
+
+Lo que esto nos dice es que la proposición solo es verdadera si las dos proposiciónes son verdaderas 
+
+#### Disyunción débil
+
+|p|o|q|
+|:-:|:-:|:-:|
+|Esta lloviendo|o|Hace frio|
+
+|p|q|p∨q|
+|:-:|:-:|:-:|
+|V|V|V|
+|V|F|V|
+|F|V|V|
+|F|F|F|
+
+esto nos quiere decir que va a ser falso solo si las 2 son falsas
+
+#### Disyunción fuerte
+
+|o|p|o|q|
+|:-:|:-:|:-:|:-:|
+|o|Esta lloviendo|o|Hace frio|
+
+|p|q|pΔq|
+|:-:|:-:|:-:|
+|V|V|F|
+|V|F|V|
+|F|V|V|
+|F|F|F|
+
+Esta nos quiere decir que una de las dos deben cumplirse pero no las dos y tampoco pueden ser las dos falsas
+
+#### Implicación 
+
+|Si|p|entonces|q|
+|:-:|:-:|:-:|:-:|
+|Si|Esta lloviendo|entonces|hace frio|
+
+|p|q|p→q|
+|:-:|:-:|:-:|
+|V|V|V|
+|V|F|F|
+|F|V|V|
+|F|F|V|
+
+La única forma en que sea falsa es que este lloviendo y no haga frio es decir que la primera sea verdadera y la segunda sea falsa 
+
+#### Equivalencia
+
+|p|entonces|q|
+|:-:|:-:|:-:|
+|Esta lloviendo|Si y solo si|hace frio|
+
+|p|q|p↔q|
+|:-:|:-:|:-:|
+|V|V|V|
+|V|F|F|
+|F|V|F|
+|F|F|V|
+
+Solo va a ser verdadero si ambas son verdaderas o ambas son falsas 
+
+#### Negación 
+
+|~p|
+|:-:
+|No Esta lloviendo|
+
+|p|~p|
+|:-:|:-:|
+|V|F|
+|F|V|
+
+Lo que hace la negación es negar lo que esta pasando 
+
+
+
+
+
