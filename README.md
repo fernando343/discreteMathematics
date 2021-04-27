@@ -210,3 +210,71 @@ y a continuación remplazamos estos valores en lo que nos pide resolver
 |V|→|V|
 ||V||
 
+**Ejercicios**
+
+1. ((p∧(q→r)))∨((q∧~r)↔~r)
+
+|p|q|r|q→r|p∧(q→r)|~r|q∧~r|(q∧~r)↔~r|((p∧(q→r)))∨((q∧~r)↔~r)
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|V|V|V|V|V|F|F|V|V|
+|V|V|F|F|F|V|V|V|V|
+|V|F|V|V|V|F|F|F|V|
+|V|F|F|F|F|V|F|V|F|
+|F|V|V|V|F|F|F|V|V|
+|F|V|F|V|F|V|V|V|V|
+|F|F|V|V|F|F|F|V|V|
+|F|F|F|V|F|V|F|F|F|
+
+## Introducción a los conjuntos 
+ un conjunto es una colección de elementos con características similares considerada en sí misma como un objeto. Los elementos de un conjunto, pueden ser las siguientes: personas, números, colores, letras, figuras, etc. Se dice que un elemento (o miembro) pertenece al conjunto si está definido como incluido de algún modo dentro de él.
+
+### Relación de pertenencia
+Quiere decir que algo pertenece o no a un conjunto y se expresa de la siguiente manera 
+
+|Pertenece|No Pertenece|
+|:-:|:-:|
+|∈|∉|
+
+**Ejemplos**
+A = {1,2,3,4,5}
+
+1 **∈** A,
+3 **∈** A,
+7 **∉** A
+
+### Determinación de un conjunto
+Es la forma a la que llamamos al conjunto y existen dos formas:
+* **Por extension**: Es cuando conocemos a los elementos del conjunto individualmente 
+* **Por comprensión**: Es cuando conocemos las cualidades del conjunto 
+
+|Por extension|Por comprensión|
+|:-:|:-:|
+|A={2,4,6}|A={x x es una vocal}|
+
+También los conocemos por conjuntos finitos y infinitos 
+|Finitos|Infinitos|
+|:-:|:-:|
+|Por extension|Por compresión|
+
+### Cardinalidad 
+
+Es el número de elementos que forma el conjunto 
+
+### Subconjuntos 
+Es un conjunto dentro de otro conjunto 
+
+**Ejemplo**
+
+Supongamos que A y B son conjuntos. Si dado elemento de B esta contenido en A e dice que B es un subconjunto de A y se representa con ⊆
+
+A = {Abecedario} B = {Vocales}
+
+B ⊆ A
+
+### Operaciones entre conjuntos 
+|Símbolo|Nombre|Concepto|
+|:-:|:-:|:-:|
+|⋃|Unión|Los elementos de un conjunto **A** se unen a los de un conjunto **B**|
+|⋂|Intersección|Son los elementos que se repiten tanto en **A** como en **B**|
+|–|Diferencia|Es la resta de los elementos entre dos conjuntos es decir los elementos que no se repiten| 
+|Cª|Complemento|Son los elementos que le hacen falta al conjunto para ser el conjunto universal|
